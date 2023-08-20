@@ -12,8 +12,8 @@ const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
 
 // Check if the random number is even
 if (randomNumber % 2 === 0) {
-        alert("i love you");
+        alert("congrats mahal ka ni sheri!!!");
 } else {
     // Display "imsorry"
-    alert("i don't like you");
+    alert("pangit mo");
 }
