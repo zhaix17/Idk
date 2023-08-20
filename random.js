@@ -2,7 +2,7 @@ const min = 1; // Minimum value for the random number
 const max = 100; // Maximum value for the random number
 
 // Get the user's input
-const numTimes = prompt("Enter a number:");
+const numTimes = prompt("Enter any random number:");
 
 // Convert the user's input to a number
 const numberOfTimes = parseInt(numTimes);
