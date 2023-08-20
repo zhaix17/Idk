@@ -11,9 +11,9 @@ const numberOfTimes = parseInt(numTimes);
 const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
 
 // Check if the random number is even
-if (randomNumber % 2 === 0) {
-        alert("congrats mahal ka ni sheri!!!");
+if (randomNumber % 2) {
+        alert("congrats mahal ka niya");
 } else {
     // Display "imsorry"
-    alert("pangit mo");
+    alert("hindi ka daw nya love");
 }
