@@ -15,5 +15,20 @@ if (randomNumber % 2) {
         alert("congrats mahal ka niya");
 } else {
     // Display 
-    fetch(https://www.google.com/search?q=scary+face&oq=scary+face&aqs=chrome..69i57j0i512l14.3427j0j4&client=ms-android-oppo-rvo2&sourceid=chrome-mobile&ie=UTF-8#vhid=JPN251jmPLw3TM&vssid=l)
+    fetch("https://example.com/scary-face-image.jpg")
+    .then(response => {
+      if (response.ok) {
+        return response.blob();
+      }
+      throw new Error('Network response was not ok.');
+    })
+    .then(blob => {
+      const imgUrl = URL.createObjectURL(blob);
+      const img = new Image();
+      img.src = imgUrl;
+      document.body.appendChild(img);
+    })
+    .catch(error => {
+      console.error('There was a problem with the fetch operation:', error);
+    });
 }
