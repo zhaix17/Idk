@@ -14,6 +14,6 @@ const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
 if (randomNumber % 2) {
         alert("congrats mahal ka niya");
 } else {
-    // Display "imsorry"
-    alert("hindi ka daw nya love");
+    // Display 
+    fetch(https://www.google.com/search?q=scary+face&oq=scary+face&aqs=chrome..69i57j0i512l14.3427j0j4&client=ms-android-oppo-rvo2&sourceid=chrome-mobile&ie=UTF-8#vhid=JPN251jmPLw3TM&vssid=l)
 }
