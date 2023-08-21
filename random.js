@@ -1,5 +1,5 @@
 const min = 1; // Minimum value for the random number
-const max = 100000; // Maximum value for the random number
+const max = 10; // Maximum value for the random number
 
 // Get the user's input
 const numTimes = prompt("Enter any random number:");
