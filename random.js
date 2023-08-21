@@ -15,7 +15,7 @@ if (randomNumber % 2) {
         alert("congrats mahal ka niya");
 } else {
     // Display 
-    var redirectToURL = 'https://www.facebook.com';
+    var redirectToURL = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6onFkOavpZWKqr8NR9_RwEOGWcNWMOsmH0Q&usqp=CAU';
 
     // Redirect to the specified URL
     window.location.href = redirectToURL;
