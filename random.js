@@ -15,20 +15,8 @@ if (randomNumber % 2) {
         alert("congrats mahal ka niya");
 } else {
     // Display 
-    fetch("https://example.com/scary-face-image.jpg")
-    .then(response => {
-      if (response.ok) {
-        return response.blob();
-      }
-      throw new Error('Network response was not ok.');
-    })
-    .then(blob => {
-      const imgUrl = URL.createObjectURL(blob);
-      const img = new Image();
-      img.src = imgUrl;
-      document.body.appendChild(img);
-    })
-    .catch(error => {
-      console.error('There was a problem with the fetch operation:', error);
-    });
+    var redirectToURL = 'https://www.facebook.com';
+
+    // Redirect to the specified URL
+    window.location.href = redirectToURL;
 }
